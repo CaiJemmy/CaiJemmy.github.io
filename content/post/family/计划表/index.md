@@ -2,7 +2,7 @@
 title: 学习计划表
 description: 家庭成员学习计划表
 slug: 计划表
-date: 2024-07-23 00:00:00+0000
+date: 2022-07-23 00:00:00+0000
 image: cover.jpg
 categories:
     - 学习计划
