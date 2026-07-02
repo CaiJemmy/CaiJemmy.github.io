@@ -160,12 +160,14 @@ var relearn_searchindex = [
     "uri": "/%E6%8A%80%E6%9C%AF%E6%8A%80%E8%83%BD/linux/linux-%E5%91%BD%E4%BB%A4/%E6%96%87%E4%BB%B6%E5%A4%84%E7%90%86/index.html"
   },
   {
-    "breadcrumb": "暮鼓晨钟 \u003e 书香笔记",
-    "content": "警告 安装前先断开网络链接。 安装前先备份C盘下个人数据。 安装win11 启动安装 在非 C 盘下，解压win11系统文件，例如：D:\\win11 下解压系统文件 进入D:\\win11目录后，双击setup文件 程序启动后，按上图操作。 按照上图选择后点击”下一步“。 按上图选择。 按上图选择。 根据情况选择是否保留文件，然后点击”下一步“。 点击”安装“。 漫长的等待后，进入如下界面。\n选择”是“，进入下一步。 选择”是“，进入下一步。 按照上图操作。 出现上图界面后，同时按下 Shift + F10 或 Fn + Shift + F10 打开命令提示符。 1# 输入命令： 2OOBE\\BYPASSNRO 3# 或者 4oobe\\bypassnro 然后按回车键”Enter“，等待系统重启。\n系统重启后，同样的界面同样的操作后会看到如下界面。 点击”我没有 Internet 连接“选项。\n输入设备名称。 输入密码。 输入安全问题。 关闭隐私设置。 点击”下一步“。 安装后设置 连接到网络 设置计算机图标 在设置中点击”个性化 \u003e 主题 \u003e 桌面图标设置“，勾选”计算机“后点击”应用“。\n设置右键菜单为win10风格 ”以管理员身份运行“运行命令窗口，在窗口中输入如下内容：\n1reg.exe add \"HKCU\\Software\\Classes\\CLSID\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\\InprocServer32\" /f /ve 2 3tskill explorer 如果想修改为win11菜单，按下面的步骤恢复\n1reg.exe delete \"HKCU\\Software\\Classes\\CLSID\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\\InprocServer32\" /va /f 2 3tskill explorer 设置查看文件名后缀 这个选项打勾\n系统激活 创建一个文本文件，里面填写如下内容：\n1slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX 2slmgr /skms kms.03k.org 3slmgr /ato 保存后修改文件名称为激活系统.bat，然后右键”以管理员身份运行“运行，之后一直点击”确认“即可。\n调整电脑休眠，锁屏时间 桌面右键选择”个性化“，在设置中点击”系统 \u003e 电源 \u003e 屏幕和睡眠超时“，根据情况设置。\n调整任务栏靠左",
-    "description": "警告 安装前先断开网络链接。 安装前先备份C盘下个人数据。 安装win11 启动安装 在非 C 盘下，解压win11系统文件，例如：D:\\win11 下解压系统文件 进入D:\\win11目录后，双击setup文件 程序启动后，按上图操作。",
-    "tags": [],
-    "title": "win11安装",
-    "uri": "/%E4%B9%A6%E9%A6%99%E7%AC%94%E8%AE%B0/win11%E5%AE%89%E8%A3%85/index.html"
+    "breadcrumb": "暮鼓晨钟 \u003e 程序员技能",
+    "content": "一、AI中数据的本质 中文数据的本质（存储[UTF-8]–\u003e统计[ong-hot编码，词汇表]–\u003e学习[词嵌入]）",
+    "description": "OpenAI Embedding。",
+    "tags": [
+      "OpenAI"
+    ],
+    "title": "OpenAIEmbedding",
+    "uri": "/%E6%8A%80%E6%9C%AF%E6%8A%80%E8%83%BD/ai/openaiembedding/index.html"
   },
   {
     "breadcrumb": "暮鼓晨钟 \u003e 程序员技能 \u003e Linux \u003e Linux之文件处理",
@@ -179,7 +181,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "暮鼓晨钟",
-    "content": "记录日常生活中的感悟、趣事。\n日常感悟\r记录日常感悟、生活感悟。",
+    "content": "记录日常生活中的感悟、趣事。\nwin11安装\rwin 11 安装及安装后详细设置。\r日常感悟\r记录日常感悟、生活感悟。",
     "description": "记录日常生活中的感悟、趣事。",
     "tags": [],
     "title": "日常拾趣",
@@ -257,7 +259,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "暮鼓晨钟",
-    "content": "win11安装\r警告 安装前先断开网络链接。 安装前先备份C盘下个人数据。 安装win11 启动安装 在非 C 盘下，解压win11系统文件，例如：D:\\win11 下解压系统文件 进入D:\\win11目录后，双击setup文件 程序启动后，按上图操作。",
+    "content": "",
     "description": "读书笔记。",
     "tags": [],
     "title": "书香笔记",
@@ -275,7 +277,7 @@ var relearn_searchindex = [
   },
   {
     "breadcrumb": "暮鼓晨钟",
-    "content": "学习方法\n深入理解原理 精度man帮助、官方文档 做所有的实验，尽量不要复制粘贴 详细记录实验过程 使用思维导图等辅助工具 享受排错的过程，在寻求帮助之前先尝试自己解决 网络接口的命名规则\r网络基础，网络接口的命名规则。\rAlgorithms\r常用算法。\rC++\rC++ 语言特性及项目。\rCMake\rC++ 项目构建工具。\rDocker\r应用容器引擎。\rLinux\rLinux 操作系统。\rshell\r核心命令及shell脚本总结。",
+    "content": "学习方法\n深入理解原理 精度man帮助、官方文档 做所有的实验，尽量不要复制粘贴 详细记录实验过程 使用思维导图等辅助工具 享受排错的过程，在寻求帮助之前先尝试自己解决 OpenAIEmbedding\rOpenAI Embedding。\r网络接口的命名规则\r网络基础，网络接口的命名规则。\rAlgorithms\r常用算法。\rC++\rC++ 语言特性及项目。\rCMake\rC++ 项目构建工具。\rDocker\r应用容器引擎。\rLinux\rLinux 操作系统。\rpytest\rpython 测试框架。\rshell\r核心命令及shell脚本总结。",
     "description": "技术总结。",
     "tags": [],
     "title": "程序员技能",
@@ -522,6 +524,22 @@ var relearn_searchindex = [
     "uri": "/%E6%8A%80%E6%9C%AF%E6%8A%80%E8%83%BD/linux/linux%E7%BD%91%E7%BB%9C/linux%E5%AE%89%E5%85%A8%E9%98%B2%E7%81%AB%E5%A2%99/iptables/index.html"
   },
   {
+    "breadcrumb": "暮鼓晨钟 \u003e 标签",
+    "content": "",
+    "description": "",
+    "tags": [],
+    "title": "标签 :: OpenAI",
+    "uri": "/tags/openai/index.html"
+  },
+  {
+    "breadcrumb": "暮鼓晨钟 \u003e 程序员技能",
+    "content": "快速上手 安装 1pip install pytest # 安装 2pip install pytest -U # 升级 3 4# 或者在项目的 requirements.txt 文件中添加 pytest 5pip install -r requirements.txt 启动方式 命令行 在项目根目录下执行命令pytest。 代码 1# 代码方式启动用力的相关代码 2import pytest 3 4pytest.main() 鼠标 【不推荐】 pytest结果分类 结果分类 说明 Passed (.) 测试用例成功 Failed (F) 测试用例断言失败 Skipped (s) 测试用例被跳过 XFailed (x) 预期失败的用例 XPassed (X) 预期失败却意外通过 Error (E) 测试运行时错误 用例规则 用例的发现规则 测试框架在识别、加载用例的过程，称之为：用例发现\n发现步骤 遍历所有目录，例外venv ,. 开头的目录 打开python文件，test_开头或_test结尾的文件 遍历所有Test开头的类 收集所有test_开头的函数或方法 内容规则 可调用的（函数、方法、类、对象） 名字test_开头 没有参数（参数又特殊含义） 没有返回值（默认None） 1def add(a, b): 2 return a + b 3 4class TestAdd: 5 def test_int(self): 6 assert add(1, 2) == 3 7 8 def test_str(self): 9 assert add('1', '2') == '12' 10 11 def test_list(self): 12 assert add([1], [2, 3]) == [1, 2, 3] 配置框架 配置可以改变pytest的默认规则\n命令参数 ini配置文件 所有的配置方式，可以一键获取\n1pytest -h 有哪些配置\n分别是什么方式\n- 开头：参数 小写字母：ini配置 大写字母：环境变量 配置文件：pytest.ini\n常用参数\n-v 增加详细程度 -s 在用例中正常的使用输入输出 -x 快速退出，当遇到失败的用例停止执行 -m 用例筛选 标记mark 用户自定义标记 注册 1# 在pytest.ini 文件中进行注册 2[pytest] 3 4markers = 5 api: API接口测试 6 web: UI测试 7 ut: 单元测试 8 pay: 支付相关测试 1pytest --markers 通过上面的命令进行查看注册情况。\n启用 1import pytest 2 3def add(a, b): 4 return a + b 5 6class TestXX: 7 @pytest.mark.api 8 def test_ok(self): 9 assert True 10 11 @pytest.mark.ut 12 def test_add(self): 13 assert add(1, 2) == 3 筛选 1pytest -m api 框架内置标记 其他常用内置标记列表 标记名称 用途 skip 跳过测试 skipif 条件跳过 xfail 预期失败，用例结果有：XPASS-预期失败，但是用例成功；XFAIL-预期失败，用例失败 usefixtures 显式应用 fixture parametrize 参数化测试 filterwarnings 过滤指定的警告 asyncio 异步测试（需pytest-asyncio插件） tryfirst/trylast 控制钩子函数（hook）优先/延后执行 1import pytest 2 3def add(a, b): 4 return a + b 5 6class TestXX: 7 @pytest.mark.skip 8 @pytest.mark.api 9 def test_ok(self): 10 assert True 11 12 @pytest.mark.skipif(1 ==2, reason=\"不想测试了\") 13 @pytest.mark.ut 14 def test_add(self): 15 assert add(1, 2) == 3 16 17 @pytest.mark.xfail 18 @pytest.mark.pay 19 def test_list(self): 20 assert add([1], [2,3,4]) == [1,2,3,4] 21 22 23@pytest.mark.xfail(reason=\"该用例在当前环境下已知会失败\") 24def test_expected_fail(): 25 assert 1 == 2 数据驱动测试 参数化测试 + 数据文件\ncsv 文件内容\n1a,b,c 21,1,2 32,3,5 43,4,7 测试代码\n1import pytest 2import csv 3 4def read_csv(path): 5 res = csv.reader(open(path)) 6 return list(res)[1:] 7 8@pytest.mark.ddt 9@pytest.mark.parametrize( 10 \"a,b,c\", 11 read_csv(\"data/data.csv\")) 12def test_csv(a, b, c): 13 assert int(a) + int(b) == int(c) 测试夹具fixture 夹具：在用例执行之前、执行之后，自动运行代码\n场景：\n之前：加密参数 / 之后：解密结果 之前：启动浏览器 / 之后：关闭浏览器 之前：注册、登录账号 / 之后：删除账号 创建fixture 创建函数 添加装饰器 添加yield关键字 1@pytest.fixture 2def f(): 3 # before 4 yield 5 # after 使用fixture 使用 pytest -vs命令执行，可以看到打印信息\n在用例的参数列表中加入fixture名字即可 1import datetime 2import pytest 3 4@pytest.fixture 5def f(): 6 # before 7 print(datetime.datetime.now(), \"begin test\") 8 yield #开始执行用例内容 9 # after 10 print(datetime.datetime.now(), \"end test\") 11 12def test_fixture(f): 13 pass 给用例加上usefixtures标记 1import datetime 2import pytest 3 4@pytest.fixture 5def f(): 6 # before 7 print(datetime.datetime.now(), \"begin test\") 8 yield #开始执行用例内容 9 # after 10 print(datetime.datetime.now(), \"end test\") 11 12@pytest.mark.usefixtures(\"f\") 13def test_fixture2(): 14 pass 高级用法 自动使用 这个autouse作用的范围是当前测试文件的所有用例。\n1import datetime 2import pytest 3 4@pytest.fixture(autouse=True) 5def f(): 6 # before 7 print(datetime.datetime.now(), \"begin test\") 8 yield #开始执行用例内容 9 # after 10 print(datetime.datetime.now(), \"end test\") 11 12def test_fixture(): 13 pass 14 15def test_fixture2(): 16 pass 依赖使用 1import datetime 2import pytest 3 4@pytest.fixture 5def f_depend(): 6 print(\"test dependency\") 7 8@pytest.fixture(autouse=True) 9def f(f_depend): 10 # before 11 print(datetime.datetime.now(), \"begin test\") 12 yield #开始执行用例内容 13 # after 14 print(datetime.datetime.now(), \"end test\") 返回内容 使用场景：接口自动化封装、接口关联\n1import datetime 2import pytest 3 4@pytest.fixture(autouse=True) 5def f(): 6 7 print(datetime.datetime.now(), \"begin test\") 8 yield [1,2,3, {'a': 100}] # yield返回的内容可以多个 9 print(datetime.datetime.now(), \"end test\") 10 # 从python的语法，可以有多个yield，但是在fixture中，只能有一个 11 12def test_fixture(f): 13 print(\"receive:\", f) 从python的语法，函数可以有多个yield，但是在fixture中，只能有一个 yield返回的内容可以多个 要接收fixture的返回内容，测试用例要使用fixture的函数名做参数接收的变量。 范围共享 1\"session\", \"package\", \"module\", \"class\", \"function\" 默认范围：function 全局范围：session 需要配置conftest.py(将共享的fixture放入其中)，否则session不生效。 插件管理 插件分类 不需要安装：内置插件 需要安装：第三方插件 插件的启用管理 启用：-p abc 禁用：-p no:abc 插件使用方式 参数\n配置文件\nfixture\nmark\n常用插件 pytest官网插件列表\n1. pytest-html 用例生成html报告\n安装\n1pip install pytest-html 2pip install -r requirements.txt 使用\n1pytest --html=reports/report.html --self-contained-html # 参数方式 1# pytest.ini 中配置 2[pytest] 3addopts = --html=reports/report.html --self-contained-html 4 5# 官网文档中的配置不好用，pytest 默认并没有名为 generate_report_on_test 的内置配置选项，这条配置不会触发任何行为。 6# generate_report_on_test = True 2. pytest-xdist 分布式执行，分布式不一定快，是否使用要看实际情况。\n安装\n1pip install pytest-xdist 2pip install -r requirements.txt 使用\n1pytest -n N # N 是要启动的进程数 分布式执行有并发问题：资源竞争，乱序\n3. pytest-rerunfailures 在用例失败后重新执行\n使用场景：网络波动、UI渲染等\n安装\n1pip install pytest-rerunfailures 2pip install -r requirements.txt 使用\n1pytest --reruns 5 --reruns-delay 1 2# --reruns 命令行选项并指定您希望测试运行的最大次数 3# --reruns-delay 命令行选项并指定您希望在下一次测试重新运行之前等待的秒数 4. pytest-result-log 把用例的执行结果记录到日志中，方便程序做结果分析\n安装\n1pip install pytest-result-log 2pip install -r requirements.txt 使用\n1[pytest] 2 3# 日志记录内容 4log_file = logs/pytest.log 5log_file_level = info 6log_file_format = %(levelname)-8s %(asctime)s [%(name)s:%(lineno)s] : %(message)s 7log_file_date_format = %Y-%m-%d %H:%M:%S 8 9# 日志记录配置 10result_log_enable = 1 11result_log_separator = 1 12result_log_level_verbose = debug 13# 分割线等级 14result_log_level_separator = warning 开关 配置 作用 默认值 result_log_enable 是否在日志中【记录】用例结果 1 result_log_separator 是否在日志中【划线分隔】用例结果 1 格式 配置 作用 默认值 result_log_format 用例执行结果的日志格式 test status is ${result_word} (${case_id}): ${reason} 说明：\n${result_word} ：用例结果，例如 PASSED、ERROR ${result_char} ：用例结果缩写，例如. E ${case_id}：用例 ID，例如 tests/e2e_case.py::test_fail ${reason} : 用例异常原因，例如 ZeroDivisionError 注意：如果用例执行通过，则没有异常原因 等级 配置 作用 默认值 result_log_level_passed 用例执行通过的的日志等级 info result_log_level_failed 用例执行失败的的日志等级 error result_log_level_error 用例执行出错的的日志等级 error result_log_level_skipped 用例执行跳过的的日志等级 warning result_log_level_xpass 用例意外通过的的日志等级 warning result_log_level_xfail 用例预期失败的的日志等级 warning result_log_level_verbose 异常详情的日志等级 debug 等级在日志记录中非常重要，\n如果某条日志【内容的等级】低于【记录器的能级】，将不会被记录\n5. pytest-cov 用于生成测试覆盖率报告\n安装\n1pip install pytest-cov 2pip install -r requirements.txt 使用\n1[pytest] 2 3addopts = --cov=your_package --cov-report=term-missing --cov-report=html 上面的参数执行其实是两个过程：\n先执行--cov=your_package --cov-report=term-missing，生成数据（.coverage文件） coverage 命令行工具生成 HTML 、XML等报告 常用参数总结\n参数 说明 --cov=your_package 指定需要统计覆盖率的包或模块 --cov-report=term 终端输出覆盖率报告（默认） --cov-report=term-missing 终端输出覆盖率报告并显示未覆盖行 --cov-report=html 生成 HTML 格式的覆盖率报告，生成默认目录 htmlcov --cov-report=xml 生成 XML 格式的覆盖率报告，默认的 coverage.xml 到当前目录 --cov-config=path/to/.coveragerc 指定 coverage.py 配置文件 --cov-fail-under 检查的是代码行覆盖率（line coverage） --cov-branch 告知 coverage.py 启用分支覆盖收集 确保你的包名或模块名正确，--cov 指定的是你想监控覆盖率的代码路径。 如果只写 --cov 不指定模块，会统计整个测试运行时加载的所有代码，可能产生大量无关覆盖数据。 结合 .coveragerc 文件可以更细粒度控制覆盖率统计行为。 通过 .coveragerc 配置文件对分支覆盖率要求进行设置\n1[run] 2branch = True 3data_file = coverage_reports/.coverage 4 5[report] 6fail_under = 80 7fail_under_branch = 80 8 9[html] 10directory = coverage_reports/html 11 12[xml] 13output = coverage_reports/coverage.xml branch = True 开启分支覆盖采集； fail_under 设置行覆盖最低阈值； fail_under_branch 设置分支覆盖最低阈值（注意：coverage.py 官方从 6.x 版本开始支持该参数）； .coverage 文件是什么？\n.coverage 文件是 coverage.py 工具（pytest-cov 底层依赖）自动生成的覆盖率原始数据文件，本质上是一个二进制数据库。\n作用说明：\n它不是直接给人阅读的，而是保存了本次测试执行过程中，哪些代码被执行过、哪些分支被走到过等详细的信息。 之后你可以用 coverage 工具将 .coverage 文件转化为各种可读的覆盖率报告（如 HTML、XML、文本等）。 多个 .coverage 文件还可以合并（如多平台、多进程测试后），再统一生成报告。 设置 .coverage 文件生成目录，通过 .coveragerc 配置文件\n1[run] 2data_file = coverage_reports/.coverage 6. pytest-coverage-gate（不好用，不推荐） 用于在 pytest 测试结束后自动校验代码覆盖率是否达到预设阈值的插件，常用于在 CI/CD 流程中保证覆盖率质量，避免覆盖率下降。\npytest-coverage-gate 本身不收集覆盖率数据，只负责校验，因此必须结合 pytest-cov 使用。\n安装\n1pip install pytest-coverage-gate 2pip install -r requirements.txt 常见参数包括：\n参数名称 说明 类型 默认值 --coverage-gate-fail-under 总体覆盖率最低阈值（百分比，如80） int/float 无 --coverage-gate-fail-under-branch 分支覆盖率最低阈值 int/float 无 使用\n1[pytest] 2 3addopts = --coverage-gate-fail-under=80 --coverage-gate-fail-under-branch=80 重要提示\n这个插件不好用。\n企业级测试报告 allure 是一个测试报告框架\n安装 1pip install allure-pytest 2pip install -r requirements.txt 不要使用Chocolatey安装，安装allure的步骤\n下载 Allure CLI 官方下载地址：https://github.com/allure-framework/allure2/releases/latest 找到 allure-2.x.x.zip（例如 allure-2.27.0.zip，版本号可能会更新），下载到本地。 解压到一个目录 例如解压到：D:\\tools\\allure-2.27.0\n配置环境变量 把 D:\\tools\\allure-2.27.0\\bin 加入到系统的 Path 环境变量。\nallure依赖 java 环境，需要提前安装java环境。\n使用 在pytest.ini中配置allure参数，配置后执行用例测试命令后，会将生成报告的数据生成到相应的目录下。 1[pytest] 2 3# allure 测试报告结果目录 --alluredir=reports/allure-results 4addopts = 5 --alluredir=reports/allure-results 执行allure报告生成命令生成报告，这里将命令直接写入测试入口文件，用例执行完成后调用系统命令生成测试报告。 1import pytest 2import os 3 4pytest.main() 5 6os.system(\"allure generate ./reports/allure-results -o ./reports/allure-report --clean\") allure扩展用法 1import allure 2 3from src.register import register, login 4from src.utils import allure_case 5 6 7@allure.feature(\"用户管理\") 8@allure.story(\"注册新用户\") 9@allure.severity(allure.severity_level.CRITICAL) 10@allure.title(\"注册功能测试\") 11def test_register(): 12 with allure.step(\"输入用户名\"): 13 username = \"test1\" 14 with allure.step(\"输入密码\"): 15 password = \"123456\" 16 with allure.step(\"点击注册\"): 17 result = register() # 假设注册成功 18 with allure.step(\"断言注册成功\"): 19 assert result 20 21 allure.attach(\"测试账号:test1\", \"账号信息\", allure.attachment_type.TEXT) 22 23 24@allure_case(\"用户管理\", \"注册新用户\", allure.severity_level.CRITICAL) 25@allure.title(\"登录功能测试\") 26def test_login(): 27 with allure.step(\"输入用户名\"): 28 username = \"test1\" 29 with allure.step(\"输入密码\"): 30 password = \"123456\" 31 with allure.step(\"点击登录\"): 32 result = login() 33 with allure.step(\"断言登录成功\"): 34 assert result 35 36 allure.attach(\"测试账号:test1\", \"账号信息\", allure.attachment_type.TEXT) 封装装饰器工厂\n1import allure 2 3def allure_case(feature, story, severity): 4 def decorator(func): 5 func = allure.feature(feature)(func) 6 func = allure.story(story)(func) 7 func = allure.severity(severity)(func) 8 return func 9 return decorator",
+    "description": "python 测试框架。",
+    "tags": [],
+    "title": "pytest",
+    "uri": "/%E6%8A%80%E6%9C%AF%E6%8A%80%E8%83%BD/python/pytest/index.html"
+  },
+  {
     "breadcrumb": "暮鼓晨钟 \u003e 程序员技能",
     "content": "linux 核心命令\rLinux 系统中常用命令。\rshell编程技巧\rshell编程中的一些技巧总结。",
     "description": "核心命令及shell脚本总结。",
@@ -552,6 +570,14 @@ var relearn_searchindex = [
     "tags": [],
     "title": "标签",
     "uri": "/tags/index.html"
+  },
+  {
+    "breadcrumb": "暮鼓晨钟 \u003e 日常拾趣",
+    "content": "警告 安装前先断开网络链接。 安装前先备份C盘下个人数据。 安装win11 启动安装 在非 C 盘下，解压win11系统文件，例如：D:\\win11 下解压系统文件 进入D:\\win11目录后，双击setup文件 程序启动后，按上图操作。 按照上图选择后点击”下一步“。 按上图选择。 按上图选择。 根据情况选择是否保留文件，然后点击”下一步“。 点击”安装“。 漫长的等待后，进入如下界面。\n选择”是“，进入下一步。 选择”是“，进入下一步。 按照上图操作。 出现上图界面后，同时按下 Shift + F10 或 Fn + Shift + F10 打开命令提示符。 1# 输入命令： 2OOBE\\BYPASSNRO 3# 或者 4oobe\\bypassnro 然后按回车键”Enter“，等待系统重启。\n系统重启后，同样的界面同样的操作后会看到如下界面。 点击”我没有 Internet 连接“选项。\n输入设备名称。 输入密码。 输入安全问题。 关闭隐私设置。 点击”下一步“。 安装后设置 连接到网络 设置计算机图标 在设置中点击”个性化 \u003e 主题 \u003e 桌面图标设置“，勾选”计算机“后点击”应用“。\n设置右键菜单为win10风格 ”以管理员身份运行“运行命令窗口，在窗口中输入如下内容：\n1reg.exe add \"HKCU\\Software\\Classes\\CLSID\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\\InprocServer32\" /f /ve 2 3tskill explorer 如果想修改为win11菜单，按下面的步骤恢复\n1reg.exe delete \"HKCU\\Software\\Classes\\CLSID\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\\InprocServer32\" /va /f 2 3tskill explorer 设置查看文件名后缀 这个选项打勾\n系统激活 创建一个文本文件，里面填写如下内容：\n1slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX 2slmgr /skms kms.03k.org 3slmgr /ato 保存后修改文件名称为激活系统.bat，然后右键”以管理员身份运行“运行，之后一直点击”确认“即可。\n调整电脑休眠，锁屏时间 桌面右键选择”个性化“，在设置中点击”系统 \u003e 电源 \u003e 屏幕和睡眠超时“，根据情况设置。\n调整任务栏靠左",
+    "description": "win 11 安装及安装后详细设置。",
+    "tags": [],
+    "title": "win11安装",
+    "uri": "/%E6%97%A5%E5%B8%B8%E6%8B%BE%E8%B6%A3/win11%E5%AE%89%E8%A3%85/index.html"
   },
   {
     "breadcrumb": "暮鼓晨钟 \u003e 日常拾趣 \u003e 日常感悟",

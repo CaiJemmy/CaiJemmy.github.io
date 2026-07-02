@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>win11安装 :: 暮鼓晨钟</title>
+    <link>https://caijemmy.github.io/%E6%97%A5%E5%B8%B8%E6%8B%BE%E8%B6%A3/win11%E5%AE%89%E8%A3%85/index.html</link>
+    <description>win 11 安装及安装后详细设置。</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <atom:link href="https://caijemmy.github.io/%E6%97%A5%E5%B8%B8%E6%8B%BE%E8%B6%A3/win11%E5%AE%89%E8%A3%85/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
